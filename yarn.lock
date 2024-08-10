@@ -2114,16 +2114,6 @@
     "@smithy/types" "^3.3.0"
     tslib "^2.6.2"
 
-"@swc/core-linux-x64-gnu@1.6.1":
-  version "1.6.1"
-  resolved "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.6.1.tgz"
-  integrity sha512-A0b/3V+yFy4LXh3O9umIE7LXPC7NBWdjl6AQYqymSMcMu0EOb1/iygA6s6uWhz9y3e172Hpb9b/CGsuD8Px/bg==
-
-"@swc/core-linux-x64-musl@1.6.1":
-  version "1.6.1"
-  resolved "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.6.1.tgz"
-  integrity sha512-5dJjlzZXhC87nZZZWbpiDP8kBIO0ibis893F/rtPIQBI5poH+iJuA32EU3wN4/WFHeK4et8z6SGSVghPtWyk4g==
-
 "@swc/core@^1.0.0", "@swc/core@^1.0.46", "@swc/core@^1.2.147", "@swc/core@1.6.1":
   version "1.6.1"
   resolved "https://registry.npmjs.org/@swc/core/-/core-1.6.1.tgz"
