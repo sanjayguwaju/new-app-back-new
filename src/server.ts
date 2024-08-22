@@ -6,7 +6,7 @@ require('dotenv').config()
 const app = express()
 
 const corsOptions = {
-  origin: '*', // Allow all origins. You can specify specific origins here.
+  origin: '*',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   preflightContinue: false,
   optionsSuccessStatus: 204,

@@ -14,6 +14,19 @@ export const HeroBlock: Block = {
       label: 'Select Hero Posts',
       relationTo: 'single-post',
       hasMany: true,
+      filterOptions: {
+        'categories': {
+          $elemMatch: {
+            title: {
+              equals: 'Politics',
+            },
+          },
+        },
+        $sort: {
+          createdAt: -1, // Sort by creation date in descending order
+        },
+        $limit: 2, // Limit the results to the latest two posts
+      },
     },
   ],
 };
